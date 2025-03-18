@@ -1,12 +1,10 @@
 {
   "compilerOptions": {
     "paths": {
-      "react-tv-space-navigation": ["../lib/src/index"]
+      "react-tv-space-navigation": ["../lib/src/index"],
+      "@DS/*": ["../example/src/design-system/*"]
     }
   },
-  "include": [
-    "../lib/src/**/*",
-    "../example/src/**/*"
-  ],
+  "include": ["../lib/src/**/*", "../example/src/**/*"],
   "extends": "../../tsconfig.base"
 }
