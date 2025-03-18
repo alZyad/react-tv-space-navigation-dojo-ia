@@ -1,7 +1,7 @@
 import { MutableRefObject } from 'react';
-import { Box } from '../../../design-system/components/Box';
-import { Spacer } from '../../../design-system/components/Spacer';
-import { Typography } from '../../../design-system/components/Typography';
+import { Box } from '@DS/components/Box';
+import { Spacer } from '@DS/components/Spacer';
+import { Typography } from '@DS/components/Typography';
 import { ProgramsRow } from './ProgramList';
 import { SpatialNavigationVirtualizedListRef } from '../../../../../lib/src/spatial-navigation/types/SpatialNavigationVirtualizedListRef';
 

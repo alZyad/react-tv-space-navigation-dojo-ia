@@ -8,16 +8,16 @@ import {
 import { Page } from '../components/Page';
 import { programInfos } from '../modules/program/infra/programInfos';
 import styled from '@emotion/native';
-import { scaledPixels } from '../design-system/helpers/scaledPixels';
+import { scaledPixels } from '@DS/helpers/scaledPixels';
 import { ProgramNode } from '../modules/program/view/ProgramNode';
-import { theme } from '../design-system/theme/theme';
+import { theme } from '@DS/theme/theme';
 import { MutableRefObject, forwardRef, useRef } from 'react';
 import { StyleSheet } from 'react-native';
-import { Button } from '../design-system/components/Button';
+import { Button } from '@DS/components/Button';
 import { SpatialNavigationNodeRef } from '../../../lib/src/spatial-navigation/types/SpatialNavigationNodeRef';
-import { Spacer } from '../design-system/components/Spacer';
+import { Spacer } from '@DS/components/Spacer';
 import { ProgramListWithTitle } from '../modules/program/view/ProgramListWithTitle';
-import { BottomArrow, TopArrow } from '../design-system/components/Arrows';
+import { BottomArrow, TopArrow } from '@DS/components/Arrows';
 
 const HEADER_SIZE = scaledPixels(400);
 

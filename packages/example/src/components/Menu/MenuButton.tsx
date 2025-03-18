@@ -2,11 +2,11 @@ import styled from '@emotion/native';
 import { forwardRef } from 'react';
 import { Animated, View } from 'react-native';
 import { SpatialNavigationFocusableView } from 'react-tv-space-navigation';
-import { scaledPixels } from '../../design-system/helpers/scaledPixels';
-import { useFocusAnimation } from '../../design-system/helpers/useFocusAnimation';
-import { theme } from '../../design-system/theme/theme';
-import { Icon } from '../../design-system/helpers/Icons';
-import { IconName } from '../../design-system/helpers/IconsCatalog';
+import { scaledPixels } from '@DS/helpers/scaledPixels';
+import { useFocusAnimation } from '@DS/helpers/useFocusAnimation';
+import { theme } from '@DS/theme/theme';
+import { Icon } from '@DS/helpers/Icons';
+import { IconName } from '@DS/helpers/IconsCatalog';
 
 type ButtonProps = {
   icon: IconName;

@@ -1,9 +1,9 @@
 import { SpatialNavigationNode, SpatialNavigationView } from 'react-tv-space-navigation';
 import { Page } from '../components/Page';
-import { Button } from '../design-system/components/Button';
-import { Typography } from '../design-system/components/Typography';
-import { Box } from '../design-system/components/Box';
-import { Spacer } from '../design-system/components/Spacer';
+import { Button } from '@DS/components/Button';
+import { Typography } from '@DS/components/Typography';
+import { Box } from '@DS/components/Box';
+import { Spacer } from '@DS/components/Spacer';
 import { useState } from 'react';
 import { ActivityIndicator } from 'react-native';
 import styled from '@emotion/native';

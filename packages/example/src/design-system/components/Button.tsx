@@ -1,7 +1,7 @@
 import { forwardRef } from 'react';
 import { Animated, View } from 'react-native';
 import { SpatialNavigationFocusableView } from 'react-tv-space-navigation';
-import { Typography } from './Typography';
+import { Typography } from '@DS/components/Typography';
 import styled from '@emotion/native';
 import { useFocusAnimation } from '../helpers/useFocusAnimation';
 import { scaledPixels } from '../helpers/scaledPixels';

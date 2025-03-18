@@ -2,8 +2,8 @@ import styled from '@emotion/native';
 import { SpatialNavigationNode } from 'react-tv-space-navigation';
 import { TextInput as RNTextInput } from 'react-native';
 import { useRef } from 'react';
-import { Typography } from './Typography';
-import { Box } from './Box';
+import { Typography } from '@DS/components/Typography';
+import { Box } from '@DS/components/Box';
 
 /**
  * It works, but it's not perfect.

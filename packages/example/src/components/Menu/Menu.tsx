@@ -8,13 +8,13 @@ import { useMenuContext } from './MenuContext';
 import { Fragment, useCallback, useEffect, useRef } from 'react';
 import { Animated, Dimensions, Platform, View } from 'react-native';
 import styled from '@emotion/native';
-import { Typography } from '../../design-system/components/Typography';
-import { Spacer } from '../../design-system/components/Spacer';
-import { Box } from '../../design-system/components/Box';
+import { Typography } from '@DS/components/Typography';
+import { Spacer } from '@DS/components/Spacer';
+import { Box } from '@DS/components/Box';
 import { useTheme } from '@emotion/react';
 import { BottomTabBarProps } from '@react-navigation/bottom-tabs';
 import { MenuButton } from './MenuButton';
-import { IconName } from '../../design-system/helpers/IconsCatalog';
+import { IconName } from '@DS/helpers/IconsCatalog';
 import { RootTabParamList } from '../../../App';
 
 const windowDimensions = Dimensions.get('window');

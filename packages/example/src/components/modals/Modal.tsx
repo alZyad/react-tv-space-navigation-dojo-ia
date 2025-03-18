@@ -1,9 +1,9 @@
 import styled from '@emotion/native';
 import React from 'react';
 import { View, ModalProps } from 'react-native';
-import { Typography } from '../../design-system/components/Typography';
-import { Spacer } from '../../design-system/components/Spacer';
-import { colors } from '../../design-system/theme/colors';
+import { Typography } from '@DS/components/Typography';
+import { Spacer } from '@DS/components/Spacer';
+import { colors } from '@DS/theme/colors';
 import { SpatialNavigationOverlay } from './SpatialNavigationOverlay/SpatialNavigationOverlay';
 
 type CustomModalProps = ModalProps & {

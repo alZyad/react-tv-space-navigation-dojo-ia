@@ -2,8 +2,8 @@ import styled from '@emotion/native';
 import React from 'react';
 import { Animated, Image, View } from 'react-native';
 import { ProgramInfo } from '../domain/programInfo';
-import { useFocusAnimation } from '../../../design-system/helpers/useFocusAnimation';
-import { Typography } from '../../../design-system/components/Typography';
+import { useFocusAnimation } from '@DS/helpers/useFocusAnimation';
+import { Typography } from '@DS/components/Typography';
 
 type ProgramProps = {
   isFocused?: boolean;

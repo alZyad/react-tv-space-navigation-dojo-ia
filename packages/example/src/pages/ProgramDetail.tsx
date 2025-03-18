@@ -3,11 +3,11 @@ import { RouteProp } from '@react-navigation/native';
 import { DefaultFocus } from 'react-tv-space-navigation';
 import { RootStackParamList } from '../../App';
 import { Page } from '../components/Page';
-import { Box } from '../design-system/components/Box';
-import { Spacer } from '../design-system/components/Spacer';
-import { Typography } from '../design-system/components/Typography';
+import { Box } from '@DS/components/Box';
+import { Spacer } from '@DS/components/Spacer';
+import { Typography } from '@DS/components/Typography';
 import { ProgramListWithTitle } from '../modules/program/view/ProgramListWithTitle';
-import { Button } from '../design-system/components/Button';
+import { Button } from '@DS/components/Button';
 import { useState } from 'react';
 import { SubtitlesModal } from '../components/modals/SubtitlesModal';
 

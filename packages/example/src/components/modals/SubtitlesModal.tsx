@@ -1,6 +1,6 @@
 import { DefaultFocus } from '../../../../lib/src/spatial-navigation/context/DefaultFocusContext';
-import { Button } from '../../design-system/components/Button';
-import { Spacer } from '../../design-system/components/Spacer';
+import { Button } from '@DS/components/Button';
+import { Spacer } from '@DS/components/Spacer';
 import { Modal } from './Modal';
 
 interface SubtitlesModalProps {

@@ -1,6 +1,6 @@
 import { ThemeProvider } from '@emotion/react';
 import { render } from '@testing-library/react-native';
-import { theme } from '../design-system/theme/theme';
+import { theme } from '@DS/theme/theme';
 import { ListWithVariableSize } from './ListWithVariableSize';
 import { NavigationContainer } from '@react-navigation/native';
 import '../components/tests/helpers/configureTestRemoteControl';

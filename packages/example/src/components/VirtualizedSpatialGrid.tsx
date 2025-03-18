@@ -4,10 +4,10 @@ import { StyleSheet, View, ViewStyle } from 'react-native';
 import { SpatialNavigationVirtualizedGrid } from 'react-tv-space-navigation';
 import { getPrograms } from '../modules/program/infra/programInfos';
 import { ProgramNode } from '../modules/program/view/ProgramNode';
-import { scaledPixels } from '../design-system/helpers/scaledPixels';
-import { theme } from '../design-system/theme/theme';
+import { scaledPixels } from '@DS/helpers/scaledPixels';
+import { theme } from '@DS/theme/theme';
 import { Header } from '../modules/header/view/Header';
-import { BottomArrow, TopArrow } from '../design-system/components/Arrows';
+import { BottomArrow, TopArrow } from '@DS/components/Arrows';
 import { ProgramInfo } from '../modules/program/domain/programInfo';
 
 const NUMBER_OF_COLUMNS = 7;

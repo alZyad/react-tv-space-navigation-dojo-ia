@@ -1,14 +1,14 @@
 import styled from '@emotion/native';
 import { DefaultFocus, SpatialNavigationScrollView } from 'react-tv-space-navigation';
 import { Page } from '../components/Page';
-import { Box } from '../design-system/components/Box';
-import { Spacer } from '../design-system/components/Spacer';
-import { Typography } from '../design-system/components/Typography';
+import { Box } from '@DS/components/Box';
+import { Spacer } from '@DS/components/Spacer';
+import { Typography } from '@DS/components/Typography';
 import {
   ProgramListWithTitle,
   ProgramListWithTitleAndVariableSizes,
 } from '../modules/program/view/ProgramListWithTitle';
-import { BottomArrow, TopArrow } from '../design-system/components/Arrows';
+import { BottomArrow, TopArrow } from '@DS/components/Arrows';
 import { StyleSheet } from 'react-native';
 
 export const Home = () => {

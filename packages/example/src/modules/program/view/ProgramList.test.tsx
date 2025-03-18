@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react-native';
-import { theme } from '../../../design-system/theme/theme';
+import { theme } from '@DS/theme/theme';
 import { ThemeProvider } from '@emotion/react';
 import { SpatialNavigationRoot, DefaultFocus } from 'react-tv-space-navigation';
 import testRemoteControlManager from '../../../components/tests/helpers/testRemoteControlManager';

@@ -10,13 +10,13 @@ import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../../App';
 import styled from '@emotion/native';
-import { scaledPixels } from '../design-system/helpers/scaledPixels';
+import { scaledPixels } from '@DS/helpers/scaledPixels';
 import { ProgramNode } from '../modules/program/view/ProgramNode';
 import chunk from 'lodash/chunk';
 import { ProgramInfo } from '../modules/program/domain/programInfo';
-import { theme } from '../design-system/theme/theme';
+import { theme } from '@DS/theme/theme';
 import { Header } from '../modules/header/view/Header';
-import { BottomArrow, TopArrow } from '../design-system/components/Arrows';
+import { BottomArrow, TopArrow } from '@DS/components/Arrows';
 import { StyleSheet } from 'react-native';
 
 const ROW_SIZE = 7;
