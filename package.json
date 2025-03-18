@@ -42,6 +42,7 @@
   "dependencies": {
     "@react-native-tvos/config-tv": "^0.0.4",
     "@react-navigation/bottom-tabs": "^6.5.11",
+    "genaiscript": "^1.117.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native-modal": "^13.0.1",
